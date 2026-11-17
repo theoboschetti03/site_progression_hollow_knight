@@ -1,0 +1,75 @@
+
+
+span {
+    color: #ffff00;
+}
+
+.intro {
+    font-size: 2.1rem;
+    text-align: center;
+    color:#5bf9c2;
+}
+.background {
+    background-image: url("https://images8.alphacoders.com/111/thumb-1920-1113007.png");
+    background-size: cover; 
+    background-position: center;
+    height: 100vh;
+}
+
+h1 {
+    margin-top: 2rem;
+    color: #5bf9c2;
+    text-align: center;
+    font-size: 3rem;
+
+}
+
+strong {
+    font-weight: bold;
+    color: #5bf9c2;
+}
+
+.encadre {
+    background-color: #34ed9a82;
+    padding: 1rem;
+    font-size: 2.1rem
+}
+
+:root {
+    font-family:'Trajan Pro', serif;
+}
+
+
+.classe {
+    color: #5bf9c2;
+    font-size:2.1rem;
+}
+
+li {
+    color: #5bf9c2;
+    font-style: italic;
+    font-size: 1.9rem;
+}
+
+
+footer {
+    color: #5bf9c2;
+}
+
+
+@font-face {
+    font-family: 'Trajan Pro';
+    src: local('Trajan Pro Regular'), local('Trajan-Pro-Regular'),
+        url('TrajanPro-Regular.woff2') format('woff2'),
+        url('TrajanPro-Regular.woff') format('woff'),
+        url('TrajanPro-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.bg2{
+    background-image: url("https://cdn.wikimg.net/fr/hkwiki/images/e/ec/Charms_Set_2.png");
+    background-size: cover; 
+    background-position: center;
+    height: 100vh;
+}
