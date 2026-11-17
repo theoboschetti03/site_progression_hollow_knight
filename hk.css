@@ -1,16 +1,16 @@
 
 
 span {
-    color: #ffff00;
+    color: #00aeff;
 }
 
 .intro {
     font-size: 2.1rem;
     text-align: center;
-    color:#5bf9c2;
+    color:#ffffff;
 }
 .background {
-    background-image: url("https://images8.alphacoders.com/111/thumb-1920-1113007.png");
+    background-image: url("https://images.steamusercontent.com/ugc/62594512887244477/6E2C16E65AA4FB37E6C4A530AB6CB0BFE413018D/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false");
     background-size: cover; 
     background-position: center;
     height: 100vh;
@@ -18,7 +18,7 @@ span {
 
 h1 {
     margin-top: 2rem;
-    color: #5bf9c2;
+    color: #00aeff;
     text-align: center;
     font-size: 3rem;
 
@@ -41,22 +41,115 @@ strong {
 
 
 .classe {
-    color: #5bf9c2;
+    color: #00aeff;
     font-size:2.1rem;
 }
 
-li {
-    color: #5bf9c2;
-    font-style: italic;
-    font-size: 1.9rem;
+body {
+    color: #ffffff;
+    font-style: 'Trajan Pro', serif;
+    font-size: 1.35rem;
+    margin: 0;
+    min-height: 100vh;
+    height: auto;
+    padding-bottom: 40px;
 }
 
 
 footer {
-    color: #5bf9c2;
+    color: #00aeff;
+}
+
+.img1{
+    margin: 0 auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
+
+}
+
+.bg2{
+    background-image: url("https://cdn.wikimg.net/fr/hkwiki/images/e/ec/Charms_Set_2.png");
+    background-size: cover; 
+    background-position: center;
+    height: 100vh;
+}
+
+.banner{
+    position: relative;
+    top: 0;
+    z-index: 100;
+    width: 70%;
+    min-height: 100vh;
+    margin: 0 auto;
+    background-color: #161f32F0;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.return_links{
+    margin-top: auto;
+    width: 100%;
+    box-sizing: border-box; 
+    padding: 30px 25px 25px 25px;    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;     
+    align-items: center;
+    gap: 15px;
+}
+.return_links a{
+    display: inline-block;
+    padding: 10px 18px;
+    background-color: #1a252f;
+    color: #00aeff;
+    border: 2px solid #00aeff;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0,95rem;
+    transition: all 0.25 ease;
+}
+.return_links a:hover{
+    background-color: #00aeff;
+    color: #ffffff;
+    box-shadow: 0 0 12px rgba(0, 230, 153, 0.5);
+    transform: translateY(-2px);
+}
+
+.return_links a:nth-child(1){
+    justify-self: start;
+    text-align: left;
+}
+
+.return_links a:nth-child(2){
+    justify-self: center;
+    text-align: center; 
+}
+
+.return_links a:nth-child(3){
+    justify-self: end;
+    text-align: right;
+}
+.img-boussole{
+    width: 165px;
+    height: 165px;
+    margin-right: 120px;
+    margin-bottom: 250px;
+
 }
 
 
+.mise-en-f1{
+    display: flex;
+    align-items: center;
+    gap: 30px; 
+}
+.mise-en-f1 ul{
+    flex: 1;
+    margin: 0;
+    padding-left: 20px;
+}
 @font-face {
     font-family: 'Trajan Pro';
     src: local('Trajan Pro Regular'), local('Trajan-Pro-Regular'),
@@ -66,10 +159,3 @@ footer {
     font-weight: 400;
     font-style: normal;
   }
-
-.bg2{
-    background-image: url("https://cdn.wikimg.net/fr/hkwiki/images/e/ec/Charms_Set_2.png");
-    background-size: cover; 
-    background-position: center;
-    height: 100vh;
-}
